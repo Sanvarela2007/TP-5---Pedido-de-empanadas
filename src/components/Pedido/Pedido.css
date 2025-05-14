@@ -1,8 +1,8 @@
-.cita:first-of-type {
+.pedido:first-of-type {
     border-top-left-radius: 1rem;
     border-top-right-radius: 1rem;
 }
-.cita {
+.pedido {
     padding: 2rem;
     background: white;
     border-bottom: 1px solid #e1e1e1;
