@@ -17,8 +17,9 @@ function App() {
 
   return (
     <>
+          <div class="container">
+
       <h1>Pedidos de empanadas</h1>
-      <div class="container">
         <Formulario agregarPedido={agregarPedido}/>
         
         <Listado pedidos={pedidos}/>

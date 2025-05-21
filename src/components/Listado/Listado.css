@@ -1,3 +1,29 @@
 h3{
     color:'black'
 }
+.pedido-persona {
+    margin-bottom: 20px;
+    padding: 16px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #fdfdfd;
+  }
+  
+  .pedido-persona h3 {
+    background-color: #f0f0f0;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .pedido-persona ul {
+    padding-left: 20px;
+    margin: 0;
+  }
+  
+  .pedido-persona li {
+    margin-bottom: 6px;
+    font-size: 16px;
+  }
+  

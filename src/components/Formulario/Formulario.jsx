@@ -82,7 +82,7 @@ const Formulario = ({agregarPedido}) => {
       value={item.gusto}
       onChange={(e) => handleGustoChange(e, index)}
     >
-      <option value="">Seleccione gusto</option>
+      <option value="" disabled>Seleccione gusto</option>
       <option value="carne">Carne</option>
       <option value="pollo">Pollo</option>
       <option value="jamon_queso">Jamón y Queso</option>

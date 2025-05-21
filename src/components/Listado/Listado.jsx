@@ -30,16 +30,17 @@ const Listado = ({ pedidos }) => {
         <ul>Verdura: {totales.verdura}</ul>
         
         <h2>Pedidos por persona</h2>
-        {pedidos.map((pedido) => (
-          <>
-            <p>{pedido.nombre}</p>
-            <ul>
-              {pedido.gustos.map((g, j) => (
-                <li key={j}>{g.cantidad} de {g.gusto}</li>
-              ))}
-            </ul>
-            </>
-        ))}
+{pedidos.map((pedido, i) => (
+  <div key={i} className="pedido-persona">
+    <h3>{pedido.nombre} - {pedido.sector}</h3>
+    <ul>
+      {pedido.gustos.map((g, j) => (
+        <li key={j}>{g.cantidad} de {g.gusto}</li>
+      ))}
+    </ul>
+  </div>
+))}
+
       </div>
     );
   };
