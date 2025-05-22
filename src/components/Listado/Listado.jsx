@@ -20,8 +20,7 @@ const Listado = ({ pedidos }) => {
   
     return (
       <div>
-        <h2>Totales por gusto</h2>
-        
+        <h2>Totales por gusto</h2> 
         <ul>Carne: {totales.carne}</ul>
         <ul>Pollo: {totales.pollo}</ul>
         <ul>Jamón y Queso: {totales.jamon_queso}</ul>
